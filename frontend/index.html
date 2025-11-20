@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 DeepSeek Chat</h1>
+            <p class="subtitle">Ask anything and get intelligent responses</p>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages"></div>
+                
+                <div class="input-container">
+                    <textarea 
+                        id="question-input" 
+                        placeholder="Type your question here..."
+                        rows="3"
+                    ></textarea>
+                    <button id="ask-button" class="ask-button">
+                        <span class="button-text">Ask DeepSeek</span>
+                        <span class="button-loader" style="display: none;">
+                            <span class="spinner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by DeepSeek API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
