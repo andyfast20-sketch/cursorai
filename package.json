@@ -1,17 +1,1 @@
-{
-  "name": "cursorai",
-  "private": true,
-  "scripts": {
-    "postinstall": "",
-    "install": "npm --prefix frontend/app install",
-    "dev": "npm --prefix frontend/app run dev",
-    "build": "npm --prefix frontend/app run build",
-    "start": "npm --prefix frontend/app run start"
-  },
-  "dependencies": {
-    "next": "14.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
-}
 
